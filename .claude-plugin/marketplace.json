@@ -1,0 +1,14 @@
+{
+  "name": "ai-reset-line",
+  "description": "Status line with 5-hour and weekly usage and reset countdowns",
+  "owner": {
+    "name": "Lumi Studio"
+  },
+  "plugins": [
+    {
+      "name": "ai-reset-line",
+      "source": "./plugins/ai-reset-line",
+      "description": "Adds /ai-reset-line:reset-line-setup, which installs the ai-reset-line status line into your user settings"
+    }
+  ]
+}

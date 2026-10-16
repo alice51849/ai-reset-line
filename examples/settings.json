@@ -1,0 +1,8 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "~/.local/share/ai-reset-line/bin/ai-reset-line --style plain",
+    "padding": 0,
+    "refreshInterval": 30
+  }
+}

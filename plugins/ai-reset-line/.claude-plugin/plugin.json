@@ -1,0 +1,13 @@
+{
+  "name": "ai-reset-line",
+  "displayName": "ai-reset-line",
+  "version": "0.1.0",
+  "description": "Status line showing 5-hour and weekly usage with reset countdowns. No API keys, no network calls.",
+  "author": {
+    "name": "Lumi Studio"
+  },
+  "homepage": "https://github.com/alice51849/ai-reset-line",
+  "repository": "https://github.com/alice51849/ai-reset-line",
+  "license": "MIT",
+  "keywords": ["statusline", "rate-limit", "usage", "codex"]
+}

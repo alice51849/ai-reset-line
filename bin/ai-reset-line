@@ -1,0 +1,24 @@
+#!/bin/sh
+# ai-reset-line: POSIX sh wrapper around src/ai_reset_line.py.
+# Resolves its own location (following symlinks) and runs the Python script.
+set -u
+
+self=$0
+while [ -L "$self" ]; do
+  link=$(readlink "$self")
+  case $link in
+    /*) self=$link ;;
+    *) self=$(dirname "$self")/$link ;;
+  esac
+done
+root=$(CDPATH='' cd -- "$(dirname -- "$self")/.." && pwd -P)
+script=$root/src/ai_reset_line.py
+
+for py in python3 python; do
+  if command -v "$py" >/dev/null 2>&1; then
+    exec "$py" "$script" "$@"
+  fi
+done
+
+echo "ai-reset-line: python3 not found"
+exit 0

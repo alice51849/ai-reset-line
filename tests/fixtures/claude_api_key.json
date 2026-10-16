@@ -1,0 +1,6 @@
+{
+  "hook_event_name": "Status",
+  "model": {"id": "example-medium", "display_name": "Medium"},
+  "context_window": {"context_window_size": 1000000, "used_percentage": 12.6, "remaining_percentage": 87.4},
+  "cost": {"total_cost_usd": 0.42}
+}

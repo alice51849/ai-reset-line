@@ -1,0 +1,23 @@
+{
+  "hook_event_name": "Status",
+  "session_id": "00000000-0000-0000-0000-000000000000",
+  "transcript_path": "/home/example/.claude/projects/example/session.jsonl",
+  "cwd": "/home/example/project",
+  "model": {"id": "example-large", "display_name": "Large"},
+  "workspace": {"current_dir": "/home/example/project", "project_dir": "/home/example/project"},
+  "version": "2.1.290",
+  "cost": {"total_cost_usd": 0.0, "total_duration_ms": 1000},
+  "context_window": {
+    "total_input_tokens": 76000,
+    "total_output_tokens": 1200,
+    "context_window_size": 200000,
+    "used_percentage": 38,
+    "remaining_percentage": 62,
+    "current_usage": {"input_tokens": 1000, "output_tokens": 1200, "cache_creation_input_tokens": 5000, "cache_read_input_tokens": 70000}
+  },
+  "exceeds_200k_tokens": false,
+  "rate_limits": {
+    "five_hour": {"used_percentage": 42.3, "resets_at": 1800004680},
+    "seven_day": {"used_percentage": 63.0, "resets_at": 1800259200}
+  }
+}

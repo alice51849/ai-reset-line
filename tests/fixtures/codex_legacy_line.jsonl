@@ -1,0 +1,1 @@
+{"timestamp":"2027-01-15T07:00:00.000Z","type":"event_msg","payload":{"type":"token_count","info":null,"rate_limits":{"primary":{"used_percent":5.0,"window_minutes":300,"resets_in_seconds":3600},"secondary":{"used_percent":50.0,"window_minutes":10080,"resets_in_seconds":86400}}}}
